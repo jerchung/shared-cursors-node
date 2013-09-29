@@ -6,7 +6,7 @@ var express = require('express'),
     fs = require('fs'),
     Cursor = require('./cursor.js');
 
-var port = process.env.PORT || 8080
+var port = process.env.OPENSHIFT_NODEJS_PORT || 8080
 
 app.use(express.static(__dirname + "/public"));
 server.listen(port);
