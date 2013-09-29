@@ -1,0 +1,1 @@
+Rewrote shared cursors in node so I could host it on a nodejitsu
