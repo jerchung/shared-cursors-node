@@ -11,11 +11,6 @@ var port = process.env.OPENSHIFT_NODEJS_PORT || 8080
 app.use(express.static(__dirname + "/public"));
 server.listen(port);
 
-io.configure(function () {
-  io.set("transports", ["xhr-polling"]);
-  io.set("polling duration", 10);
-});
-
 var id = 1;
 var cursors = {};
 
