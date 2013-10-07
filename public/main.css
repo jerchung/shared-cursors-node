@@ -1,13 +1,61 @@
-#cursors {
-	position: relative;
-	height: 100%;
+body {
+	background-color: #272822;
+}
+
+#input-container {
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+	left: 0;
 	width: 100%;
+	text-align: center;
+}
+
+#counter {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#counter-number {
+	font: 30px Arial, Helvetica, sans-serif;
+	margin: 5px 0;
+}
+
+#counter p {
+	margin: 0;
+	color: #FAEBD7;
+	font-weight: 900;
+	text-align: center;
+}
+
+#input-box {
+	background-color: rgba(112,128,144, 0.2);
+	border-style: none;
+	width: 70%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	padding-left: 10px;
+	padding-right: 10px;
+	font: 40px Arial, Helvetica, sans-serif;
+	border-radius: 20px;
+	color: white;
+}
+
+#input-box:focus {
+	outline: 0;
 }
 
 .cursor {
 	position: absolute;
-	height: 5px;
-	width: 5px;
-	background-color: black;
-	display: none;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.counter-text {
+	font: 15px Arial, Helvetica, sans-serif;
 }
