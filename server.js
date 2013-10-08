@@ -11,10 +11,10 @@ var port = process.env.PORT || 8080
 app.use(express.static(__dirname + "/public"));
 server.listen(port);
 
-io.configure(function () {
-  io.set("transports", ["xhr-polling"]);
-  io.set("polling duration", 10);
-});
+// io.configure(function () {
+//   io.set("transports", ["xhr-polling"]);
+//   io.set("polling duration", 10);
+// });
 
 var id = 1;
 var connected = 0;
