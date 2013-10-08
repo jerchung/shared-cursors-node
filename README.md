@@ -1,4 +1,5 @@
-Rewrote shared cursors in node so I could host it on heroku
+This is a random side-project I made using node.js and socket.io
+The position of the mouse cursor of everyone currently connected to the page is visible on each client's browser window
 
 http://protected-caverns-7161.herokuapp.com
 
